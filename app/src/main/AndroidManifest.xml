@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hasan.mathsukrevision">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MathsUKRevision">
+        <activity
+            android:name=".MathsQuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AqaNov18Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".AqaNov18Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".AqaNov18Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".AqaNov17Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".AqaNov17Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".AqaNov17Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun19Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun19Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun19Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun18Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun18Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun18Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun17Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun17Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun17Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun15Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun15Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".AqaJun15Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".OcrActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EdexcelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AqaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RevisionActivity"
+            android:exported="true" />
+        <activity android:name=".ViewFormulas" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

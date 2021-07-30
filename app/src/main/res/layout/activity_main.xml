@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_open_formulas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formulas to memorise"
+        android:textSize="25sp"
+        android:backgroundTint="#EC1616"
+        />
+
+    <Button
+        android:id="@+id/btn_open_revision"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:text="Revision"
+        android:textSize="25sp"
+        android:backgroundTint="#F69014"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Curriculum:"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btn_aqa"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:text="AQA Past Papers"
+        android:textSize="25sp"
+        android:backgroundTint="#0FCA12"
+        />
+
+    <Button
+        android:id="@+id/btn_edexcel"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:text="Edexcel Past Papers"
+        android:textSize="25sp"
+        android:backgroundTint="#E91E63"
+        />
+
+    <Button
+        android:id="@+id/btn_ocr"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:text="OCR Past Papers"
+        android:textSize="25sp"
+        android:backgroundTint="#3F51B5"
+        />
+
+    <ImageView
+        android:id="@+id/insta"
+        android:layout_width="104dp"
+        android:layout_height="69dp"
+        app:srcCompat="@drawable/instaicon"
+        />
+
+
+</LinearLayout>

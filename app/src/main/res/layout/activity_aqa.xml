@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:stretchColumns="0,1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_aqa_jun15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="June 15"
+            android:layout_column="0"
+            android:backgroundTint="@color/black"
+            android:layout_marginRight="8dp"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/btn_aqa_jun17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="June 17"
+            android:layout_column="1"
+            android:backgroundTint="@color/black"
+            android:layout_marginRight="8dp"
+            android:textSize="25sp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btn_aqa_jun18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="June 18"
+            android:layout_column="0"
+            android:backgroundTint="@color/black"
+            android:layout_marginRight="8dp"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/btn_aqa_jun19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="June 19"
+            android:layout_column="1"
+            android:backgroundTint="@color/black"
+            android:layout_marginRight="8dp"
+            android:textSize="25sp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btn_aqa_nov17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nov 17"
+            android:layout_column="0"
+            android:backgroundTint="@color/black"
+            android:layout_marginRight="8dp"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/btn_aqa_nov18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nov 18"
+            android:layout_column="0"
+            android:backgroundTint="@color/black"
+            android:layout_marginRight="8dp"
+            android:textSize="25sp"
+            />
+
+    </TableRow>
+
+    <FrameLayout
+        android:id="@+id/aqaFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</TableLayout>
