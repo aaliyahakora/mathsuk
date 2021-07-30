@@ -6,19 +6,19 @@
     android:gravity="center"
     android:orientation="vertical"
     android:background="#2196F3"
-    tools:context=".AqaJun17Fragment">
+    tools:context=".OcrJun19Fragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:text="AQA JUN17 Papers 1, 2, 3:"
+        android:text="OCR JUN19 Papers 1, 2, 3:"
         android:textSize="30sp"
         android:layout_marginBottom="50dp"
         />
 
     <Button
-        android:id="@+id/btn_a_jun17_1"
+        android:id="@+id/btn_o_jun19_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Paper 1 Non-Calculator"
@@ -27,7 +27,7 @@
         />
 
     <Button
-        android:id="@+id/btn_a_jun17_2"
+        android:id="@+id/btn_o_jun19_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Paper 2 Calculator"
@@ -36,7 +36,7 @@
         />
 
     <Button
-        android:id="@+id/btn_a_jun17_3"
+        android:id="@+id/btn_o_jun19_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Paper 3 Calculator"

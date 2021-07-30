@@ -10,6 +10,81 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MathsUKRevision">
         <activity
+            android:name=".OcrNov18Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".OcrNov18Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".OcrNov18Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".OcrJun19Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".OcrJun19Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".OcrJun19Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".OcrJun18Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".OcrJun18Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".OcrJun18Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".OcrJun17Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".OcrJun17Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".OcrJun17Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".OcrJun18Fragment"
+            android:exported="true" />
+        <activity
+            android:name=".EdexNov18Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".EdexNov18Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".EdexNov18Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".EdexNov17Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".EdexNov17Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".EdexNov17Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".EdexJun18Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".EdexJun18Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".EdexJun18Paper1"
+            android:exported="true" />
+        <activity
+            android:name=".EdexJun17Paper3"
+            android:exported="true" />
+        <activity
+            android:name=".EdexJun17Paper2"
+            android:exported="true" />
+        <activity
+            android:name=".EdexJun17Paper1"
+            android:exported="true" />
+        <activity
             android:name=".MathsQuizActivity"
             android:exported="true" />
         <activity
