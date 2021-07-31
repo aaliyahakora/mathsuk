@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MathsUKRevision">
         <activity
+            android:name=".TimerActivity"
+            android:exported="true" />
+        <activity
             android:name=".OcrNov18Paper3"
             android:exported="true" />
         <activity
@@ -44,9 +47,6 @@
             android:exported="true" />
         <activity
             android:name=".OcrJun17Paper1"
-            android:exported="true" />
-        <activity
-            android:name=".OcrJun18Fragment"
             android:exported="true" />
         <activity
             android:name=".EdexNov18Paper3"

@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn_open_formulas, btn_open_revision, btn_aqa, btn_edexcel, btn_ocr;
+    Button btn_open_formulas, btn_open_revision, btn_timer, btn_aqa, btn_edexcel, btn_ocr;
     ImageView insta;
 
     @Override
@@ -41,6 +41,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openRevisionActivity();
+            }
+        });
+
+        btn_timer = (Button) findViewById(R.id.btn_timer);
+        btn_timer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openTimerActivity();
             }
         });
 
@@ -79,6 +87,11 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this, RevisionActivity.class);
             startActivity(i);
         }
+
+    public void openTimerActivity() {
+        Intent i = new Intent(this, TimerActivity.class);
+        startActivity(i);
+    }
 
         public void openAqaActivity() {
             Intent i = new Intent(this, AqaActivity.class);
