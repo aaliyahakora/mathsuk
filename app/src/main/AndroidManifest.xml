@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MathsUKRevision">
         <activity
+            android:name=".AddNoteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NotesActivity"
+            android:exported="true" />
+        <activity
             android:name=".TimerActivity"
             android:exported="true" />
         <activity

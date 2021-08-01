@@ -36,6 +36,15 @@
         android:backgroundTint="#E83ACA"
         />
 
+    <Button
+        android:id="@+id/btn_notes"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:text="My Notes"
+        android:textSize="25sp"
+        android:backgroundTint="#16E8BE"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
