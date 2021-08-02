@@ -3,29 +3,18 @@ package com.hasan.mathsukrevision;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
     Button btn_open_formulas, btn_open_revision, btn_timer, btn_notes, btn_aqa, btn_edexcel, btn_ocr;
-    ImageView insta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        insta = findViewById(R.id.insta);
-        insta.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                gotoUrl("https://www.instagram.com/mathsuk/");
-            }
-        });
 
         btn_open_formulas = (Button) findViewById(R.id.btn_open_formulas);
         btn_open_formulas.setOnClickListener(new View.OnClickListener() {
@@ -83,12 +72,6 @@ public class MainActivity extends AppCompatActivity {
                 openOcrActivity();
             }
         });
-    }
-
-    private void gotoUrl(String s) {
-        Uri uri = Uri.parse(s);
-        startActivity(new Intent(Intent.ACTION_VIEW, uri));
-
     }
 
     public void openRevisionActivity() {

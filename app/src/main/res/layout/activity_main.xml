@@ -79,12 +79,4 @@
         android:backgroundTint="#3F51B5"
         />
 
-    <ImageView
-        android:id="@+id/insta"
-        android:layout_width="104dp"
-        android:layout_height="69dp"
-        app:srcCompat="@drawable/instaicon"
-        />
-
-
 </LinearLayout>

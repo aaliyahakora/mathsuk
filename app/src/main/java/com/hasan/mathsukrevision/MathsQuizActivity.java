@@ -147,7 +147,17 @@ public class MathsQuizActivity extends AppCompatActivity {
         countdown_timer = new CountDownTimer(30000, 1000) {
             @Override
             public void onTick(long millisecLeft) {
-                text_timer.setText("00:" + millisecLeft/1000);
+                int minutes = (int) (millisecLeft / 1000) / 60;
+                int seconds = (int) (millisecLeft / 1000) % 60;
+                String secondsLeft = "";
+                if (seconds <= 9) {
+                    secondsLeft = "0" + seconds;
+
+                } else {
+                    secondsLeft = "" + seconds;
+
+                }
+                text_timer.setText("" + minutes + ":" + secondsLeft);
 
                 if (millisecLeft <10000) {
                     text_timer.setTextColor(Color.RED);

@@ -92,7 +92,7 @@ public class TimerActivity extends AppCompatActivity {
 
                 @Override
                 public void onFinish() {
-                    reset();
+                    resetTimer();
                     if (mediaPlayer != null) {
                         mediaPlayer.start();
                     }
@@ -102,12 +102,12 @@ public class TimerActivity extends AppCompatActivity {
             }.start();
 
         } else {
-            reset();
+            resetTimer();
 
         }
     }
 
-    private void reset() {
+    private void resetTimer() {
         text_timer_tool.setText("90:00");
         timer_bar.setProgress(5400);
         countDownTimer.cancel();
