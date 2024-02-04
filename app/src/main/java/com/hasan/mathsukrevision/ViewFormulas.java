@@ -16,6 +16,6 @@ public class ViewFormulas extends AppCompatActivity {
         setContentView(R.layout.activity_view_formulas);
 
         pdf_formulas = (PDFView)findViewById(R.id.pdfFormulas);
-        pdf_formulas.fromAsset("not_given_formulae.pdf").load();
+        pdf_formulas.fromAsset("mathsukformulas.pdf").load();
     }
 }

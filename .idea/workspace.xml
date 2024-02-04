@@ -20,7 +20,22 @@
           <theme>@style/Theme.MathsUKRevision</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun15_paper2.xml">
+        <config>
+          <theme>@style/Theme.MathsUKRevision</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun15_paper3.xml">
+        <config>
+          <theme>@style/Theme.MathsUKRevision</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edexcel.xml">
+        <config>
+          <theme>@style/Theme.MathsUKRevision</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
           <theme>@style/Theme.MathsUKRevision</theme>
         </config>
@@ -36,7 +51,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7be24892-9943-4466-8e0c-239747c2846c" name="Default Changelist" comment="" />
+    <list default="true" id="7be24892-9943-4466-8e0c-239747c2846c" name="Default Changelist" comment="fixed revision button&#10;&#10;current state:&#10;&#10;working apk with all past paper buttons removed">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/ViewFormulas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/ViewFormulas.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +104,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -184,6 +212,57 @@
       <option name="presentableId" value="Default" />
       <updated>1627506309680</updated>
     </task>
+    <task id="LOCAL-00001" summary="made it run on my phone">
+      <option name="closed" value="true" />
+      <created>1707008522376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707008522376</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changed api sdk to 33">
+      <option name="closed" value="true" />
+      <created>1707009331887</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707009331887</updated>
+    </task>
+    <task id="LOCAL-00003" summary="buildable version.&#10;REVISION BUTTON DOES NOT WORK">
+      <option name="closed" value="true" />
+      <created>1707014260171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707014260171</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed revision button&#10;&#10;current state:&#10;&#10;working apk with all past paper buttons removed">
+      <option name="closed" value="true" />
+      <created>1707014653605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707014653605</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made it run on my phone" />
+    <MESSAGE value="changed api sdk to 33" />
+    <MESSAGE value="buildable version.&#10;REVISION BUTTON DOES NOT WORK" />
+    <MESSAGE value="fixed revision button&#10;&#10;current state:&#10;&#10;working apk with all past paper buttons removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed revision button&#10;&#10;current state:&#10;&#10;working apk with all past paper buttons removed" />
   </component>
 </project>
