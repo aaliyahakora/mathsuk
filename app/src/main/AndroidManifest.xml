@@ -25,6 +25,9 @@
         <activity
             android:name=".RevisionActivity"
             android:exported="true" />
+        <activity
+            android:name=".MathsQuizActivity"
+            android:exported="true" />
         <activity android:name=".ViewFormulas" android:exported="true" />
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
