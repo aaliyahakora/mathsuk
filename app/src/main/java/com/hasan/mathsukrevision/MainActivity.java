@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn_open_formulas, btn_open_revision, btn_timer, btn_notes;
+    Button btn_open_formulas, btn_open_revision, btn_timer, btn_notes, btn_open_questions;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        btn_open_questions = (Button) findViewById(R.id.btn_open_questions);
+        btn_open_questions.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, ViewQuestions.class);
+                startActivity(i);
+            }
+        });
+
+
 
         btn_open_revision = (Button) findViewById(R.id.btn_open_revision);
         btn_open_revision.setOnClickListener(new View.OnClickListener() {
@@ -56,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this, RevisionActivity.class);
             startActivity(i);
         }
+        
 
     public void openTimerActivity() {
         Intent i = new Intent(this, TimerActivity.class);

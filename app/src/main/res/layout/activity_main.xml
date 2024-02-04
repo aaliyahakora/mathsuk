@@ -11,33 +11,41 @@
 
     <Button
         android:id="@+id/btn_open_formulas"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#EC1616"
-        android:text="Formulas to memorise"
+        android:backgroundTint="#FCCB90"
+        android:text="Formulas"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_open_questions"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B6B97C"
+        android:text="Questions"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn_open_revision"
-        android:layout_width="381dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F69014"
+        android:backgroundTint="#77A27A"
         android:text="Revision"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn_timer"
-        android:layout_width="381dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#E83ACA"
+        android:backgroundTint="#48857A"
         android:text="Timer Tool"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn_notes"
-        android:layout_width="381dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#16E8BE"
+        android:backgroundTint="#32676F"
         android:text="My Notes"
         android:textSize="25sp" />
 
