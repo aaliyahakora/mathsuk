@@ -45,38 +45,4 @@
         android:backgroundTint="#16E8BE"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Curriculum:"
-        android:textSize="25sp"
-        />
-
-    <Button
-        android:id="@+id/btn_aqa"
-        android:layout_width="381dp"
-        android:layout_height="wrap_content"
-        android:text="AQA Past Papers"
-        android:textSize="25sp"
-        android:backgroundTint="#0FCA12"
-        />
-
-    <Button
-        android:id="@+id/btn_edexcel"
-        android:layout_width="381dp"
-        android:layout_height="wrap_content"
-        android:text="Edexcel Past Papers"
-        android:textSize="25sp"
-        android:backgroundTint="#E91E63"
-        />
-
-    <Button
-        android:id="@+id/btn_ocr"
-        android:layout_width="381dp"
-        android:layout_height="wrap_content"
-        android:text="OCR Past Papers"
-        android:textSize="25sp"
-        android:backgroundTint="#3F51B5"
-        />
-
 </LinearLayout>

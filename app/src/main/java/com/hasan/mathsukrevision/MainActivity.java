@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn_open_formulas, btn_open_revision, btn_timer, btn_notes, btn_aqa, btn_edexcel, btn_ocr;
+    Button btn_open_formulas, btn_open_revision, btn_timer, btn_notes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,29 +49,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn_aqa = (Button) findViewById(R.id.btn_aqa);
-        btn_aqa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openAqaActivity();
-            }
-        });
 
-        btn_edexcel = (Button) findViewById(R.id.btn_edexcel);
-        btn_edexcel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openEdexcelActivity();
-            }
-        });
-
-        btn_ocr = (Button) findViewById(R.id.btn_ocr);
-        btn_ocr.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openOcrActivity();
-            }
-        });
     }
 
     public void openRevisionActivity() {
@@ -88,20 +66,5 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, NotesActivity.class);
         startActivity(i);
     }
-
-        public void openAqaActivity() {
-            Intent i = new Intent(this, AqaActivity.class);
-            startActivity(i);
-        }
-
-        public void openEdexcelActivity() {
-            Intent i = new Intent(this, EdexcelActivity.class);
-            startActivity(i);
-        }
-
-        public void openOcrActivity() {
-            Intent i = new Intent(this, OcrActivity.class);
-            startActivity(i);
-        }
 
 }
