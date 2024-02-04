@@ -4,45 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
     android:gravity="center"
-    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btn_open_formulas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Formulas to memorise"
-        android:textSize="25sp"
         android:backgroundTint="#EC1616"
-        />
+        android:text="Formulas to memorise"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn_open_revision"
         android:layout_width="381dp"
         android:layout_height="wrap_content"
-        android:text="Revision"
-        android:textSize="25sp"
         android:backgroundTint="#F69014"
-        />
+        android:text="Revision"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn_timer"
         android:layout_width="381dp"
         android:layout_height="wrap_content"
-        android:text="Timer Tool"
-        android:textSize="25sp"
         android:backgroundTint="#E83ACA"
-        />
+        android:text="Timer Tool"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn_notes"
         android:layout_width="381dp"
         android:layout_height="wrap_content"
-        android:text="My Notes"
-        android:textSize="25sp"
         android:backgroundTint="#16E8BE"
-        />
+        android:text="My Notes"
+        android:textSize="25sp" />
 
 </LinearLayout>
