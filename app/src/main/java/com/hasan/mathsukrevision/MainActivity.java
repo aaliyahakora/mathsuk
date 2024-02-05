@@ -3,13 +3,16 @@ package com.hasan.mathsukrevision;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
     Button btn_open_formulas, btn_open_revision, btn_timer, btn_notes, btn_open_questions;
+    ImageButton btn_instagram;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +64,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        btn_instagram = (android.widget.ImageButton) findViewById(R.id.btn_instagram);
+        btn_instagram.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goLink("https://www.instagram.com/mathsuk/");
+            }
+        });
+
+
+    }
+
+    private void goLink(String s) {
+        Uri uri = Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW, uri));
     }
 
     public void openRevisionActivity() {
