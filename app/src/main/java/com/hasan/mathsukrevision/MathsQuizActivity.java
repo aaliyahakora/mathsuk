@@ -178,6 +178,7 @@ public class MathsQuizActivity extends AppCompatActivity {
     }
 
     private void addQuestions() {
+        questionsList.add(new QuestionsTemplate("What is the cosine rule?", "a^2 = b^2 + c^2 - 2bc Cos A", "a^2 = b^2 - c^2 + 2bc CosA", "a/sinA = b/sinB = c/sinC", "a^2 + b^2 = c^2", 1));
         questionsList.add(new QuestionsTemplate("What is the area of a circle?", "2πr", "3/4 πr^2", "πD","πr^2", 4));
         questionsList.add(new QuestionsTemplate("What is the circumference of a circle?", "2πr", "πr^2", "πr", "π * h",1));
         questionsList.add(new QuestionsTemplate("What is the area of a right angle triangle?", "ab/2", "ab/4", "ab", "aa",1));
