@@ -10,37 +10,12 @@
           <theme>@style/Theme.MathsUKRevision</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_aqa.xml">
-        <config>
-          <theme>@style/Theme.MathsUKRevision</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun15_paper1.xml">
-        <config>
-          <theme>@style/Theme.MathsUKRevision</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun15_paper2.xml">
-        <config>
-          <theme>@style/Theme.MathsUKRevision</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun15_paper3.xml">
-        <config>
-          <theme>@style/Theme.MathsUKRevision</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edexcel.xml">
-        <config>
-          <theme>@style/Theme.MathsUKRevision</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
           <theme>@style/Theme.MathsUKRevision</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_jun19_paper1.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_maths_quiz.xml">
         <config>
           <theme>@style/Theme.MathsUKRevision</theme>
         </config>
@@ -56,11 +31,6 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_view_questions.xml">
-        <config>
-          <theme>@style/Theme.MathsUKRevision</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_edex_jun18.xml">
         <config>
           <theme>@style/Theme.MathsUKRevision</theme>
         </config>
@@ -81,13 +51,181 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7be24892-9943-4466-8e0c-239747c2846c" name="Default Changelist" comment="added instagram link button">
+    <list default="true" id="7be24892-9943-4466-8e0c-239747c2846c" name="Default Changelist" comment="added one single more question to mutliple choice quiz">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/facebook_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tiktok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tiktok_button.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_1H_QPMS_jun17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_1H_QPMS_jun18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_1H_QPMS_nov17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_1H_QPMS_nov18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_2H_QPMS_jun17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_2H_QPMS_jun18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_2H_QPMS_nov17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_2H_QPMS_nov18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_3H_QPMS_jun17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_3H_QPMS_jun18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_3H_QPMS_nov17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1MA1_3H_QPMS_nov18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/470238-1H-QPMS-jun17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/470239-2H-QPMS-jun17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/470240-3H-QPMS-jun17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/528854-1H-QPMS-jun18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/528855-2H-QPMS-jun18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/528856-3H-QPMS-jun18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/563120-1H-QPMS-nov18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/563121-2H-QPMS-nov18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/563122-3H-QPMS-nov18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/620507-1H-QPMS-jun19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/620508-2H-QPMS-jun19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/620509-3H-QPMS-jun19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83001H-QPMS-jun15.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83001H-QPMS-jun17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83001H-QPMS-jun18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83001H-QPMS-jun19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83001H-QPMS-nov17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83001H-QPMS-nov18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83002H-QPMS-jun15.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83002H-QPMS-jun17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83002H-QPMS-jun18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83002H-QPMS-jun19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83002H-QPMS-nov17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83002H-QPMS-nov18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83003H-QPMS-jun15.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83003H-QPMS-jun17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83003H-QPMS-jun18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83003H-QPMS-jun19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83003H-QPMS-nov17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/AQA-83003H-QPMS-nov18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun15Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun15Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun15Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun15Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun17Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun17Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun17Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun17Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun18Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun18Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun18Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun18Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun19Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun19Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun19Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaJun19Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaNov17Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaNov17Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaNov17Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaNov17Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaNov18Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaNov18Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaNov18Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/AqaNov18Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexJun17Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexJun17Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexJun17Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexJun17Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexJun18Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexJun18Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexJun18Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexJun18Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexNov17Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexNov17Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexNov17Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexNov17Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexNov18Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexNov18Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexNov18Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexNov18Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/EdexcelActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun17Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun17Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun17Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun17Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun18Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun18Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun18Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun18Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun19Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun19Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun19Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrJun19Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrNov18Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrNov18Paper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrNov18Paper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/OcrNov18Paper3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun15_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun15_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun15_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun17_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun17_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun17_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun18_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun18_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun18_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun19_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun19_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_jun19_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_nov17_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_nov17_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_nov17_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_nov18_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_nov18_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aqa_nov18_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_jun17_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_jun17_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_jun17_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_jun18_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_jun18_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_jun18_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_nov17_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_nov17_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_nov17_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_nov18_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_nov18_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edex_nov18_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edexcel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_jun17_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_jun17_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_jun17_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_jun18_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_jun18_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_jun18_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_jun19_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_jun19_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_jun19_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_nov18_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_nov18_paper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ocr_nov18_paper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_aqa_paper1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_aqa_jun15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_aqa_jun17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_aqa_jun18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_aqa_jun19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_aqa_nov17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_aqa_nov18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edex_jun17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edex_jun18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edex_nov17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edex_nov18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_ocr_jun17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_ocr_jun18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_ocr_jun19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_ocr_nov18.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707173066889</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added one single more question to mutliple choice quiz">
+      <option name="closed" value="true" />
+      <created>1707173618772</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707173618772</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,6 +495,7 @@
     <MESSAGE value="added new button 'questions' that now routes to a new pdf. had to do a lot for that" />
     <MESSAGE value="changed button names" />
     <MESSAGE value="added instagram link button" />
-    <option name="LAST_COMMIT_MESSAGE" value="added instagram link button" />
+    <MESSAGE value="added one single more question to mutliple choice quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="added one single more question to mutliple choice quiz" />
   </component>
 </project>

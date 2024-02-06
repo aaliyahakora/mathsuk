@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 public class MainActivity extends AppCompatActivity {
 
     Button btn_open_formulas, btn_open_revision, btn_timer, btn_notes, btn_open_questions;
-    ImageButton btn_instagram;
+    ImageButton btn_instagram, btn_tiktok, btn_facebook;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +69,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 goLink("https://www.instagram.com/mathsuk/");
+            }
+        });
+
+        btn_tiktok = (android.widget.ImageButton) findViewById(R.id.btn_tiktok);
+        btn_tiktok.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goLink("https://www.tiktok.com/@mathsuk");
+            }
+        });
+
+        btn_facebook = (android.widget.ImageButton) findViewById(R.id.btn_facebook);
+        btn_facebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goLink("https://www.facebook.com/profile.php?id=100067690504250");
             }
         });
 
