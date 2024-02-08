@@ -177,18 +177,24 @@ public class MathsQuizActivity extends AppCompatActivity {
 
     }
 
+
+// superscript 2: ²
+// fraction 3 / 4: ¾
+// fraction 1 / 2: ½
+
+
     private void addQuestions() {
-        questionsList.add(new QuestionsTemplate("What is the cosine rule?", "a^2 = b^2 + c^2 - 2bc Cos A", "a^2 = b^2 - c^2 + 2bc CosA", "a/sinA = b/sinB = c/sinC", "a^2 + b^2 = c^2", 1));
-        questionsList.add(new QuestionsTemplate("What is the area of a circle?", "2πr", "3/4 πr^2", "πD","πr^2", 4));
-        questionsList.add(new QuestionsTemplate("What is the circumference of a circle?", "2πr", "πr^2", "πr", "π * h",1));
-        questionsList.add(new QuestionsTemplate("What is the area of a right angle triangle?", "ab/2", "ab/4", "ab", "aa",1));
-        questionsList.add(new QuestionsTemplate("What is the area of a trapezium?", "(ab)^2", "1/2 x ab", "(a+b)/2 * h", "(a+b)/2", 3));
-        questionsList.add(new QuestionsTemplate("What is the area of a rectangle?", "1/2 * ab", "hb", "h * h","lbw" ,2));
-        questionsList.add(new QuestionsTemplate("What is the volume of a cylinder?", "πr^2", "πr^2*h", "1/2 * ab * sinC", "E=mc^2", 2));
-        questionsList.add(new QuestionsTemplate("What does SOH stand for in trigonometry?", "sinx=opposite/hypotenuse", "cosx=adjacent/hypotenuse", "sinx","cosy", 1));
-        questionsList.add(new QuestionsTemplate("What is Pythagoras' theorem?", "a^2+b^2=c^2", "a+b=c", "x^2+y^2=c^3", "1+1=3", 1));
+        questionsList.add(new QuestionsTemplate("What is the cosine rule?", "a² = b² + c² - 2bcCosA", "a² = b² - c² + 2bc CosA", "a/sinA = b/sinB = c/sinC", "a² + b² = c²", 1));
+        questionsList.add(new QuestionsTemplate("What is the area of a circle?", "2πr", "¾ πr²", "πD","πr²", 4));
+        questionsList.add(new QuestionsTemplate("What is the circumference of a circle?", "2πr", "πr²", "πr", "π * h",1));
+        questionsList.add(new QuestionsTemplate("What is the area of a right angle triangle?", "ᵃᵇ⁄₂", "ab/4", "ab", "aa",1));
+        questionsList.add(new QuestionsTemplate("What is the area of a trapezium?", "(ab)²", "½ ab", "(a+b)/2 * h", "(a+b)/2", 3));
+        questionsList.add(new QuestionsTemplate("What is the area of a rectangle?", "½ * ab", "hb", "h * h","lbw" ,2));
+        questionsList.add(new QuestionsTemplate("What is the volume of a cylinder?", "πr²", "πr² * h", "½ * ab * sinC", "E=mc²", 2));
+        questionsList.add(new QuestionsTemplate("What does SOH stand for in trigonometry?", "sin x =opposite/hypotenuse", "cos x =adjacent/hypotenuse", "sin x","cos y", 1));
+        questionsList.add(new QuestionsTemplate("What is Pythagoras' theorem?", "a²+b²=c²", "a+b=c", "x²-y²=c²", "1+1=3", 1));
         questionsList.add(new QuestionsTemplate("What is the equation of a straight line?", "y=mx", "y=mx+c", "straight line", "0",2));
-        questionsList.add(new QuestionsTemplate("what does CAH stand for?", "sinx=opposite/hypotenuse", "cosx=adjacent/hypotenuse", "sinx", "cosx=hypotenuse/adjacent",2));
+        questionsList.add(new QuestionsTemplate("what does CAH stand for?", "sin x =opposite/hypotenuse", "cos x =adjacent/hypotenuse", "sin x", "cos x =hypotenuse/adjacent",2));
 
     }
 }
