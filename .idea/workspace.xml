@@ -51,7 +51,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7be24892-9943-4466-8e0c-239747c2846c" name="Default Changelist" comment="changed app name to mathsuk">
+    <list default="true" id="7be24892-9943-4466-8e0c-239747c2846c" name="Default Changelist" comment="updating some questions and formatting">
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -60,6 +60,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/MathsQuizActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hasan/mathsukrevision/MathsQuizActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_maths_quiz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_maths_quiz.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707417479623</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updating some questions and formatting">
+      <option name="closed" value="true" />
+      <created>1707432056631</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707432056631</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,6 +375,7 @@
     <MESSAGE value="deleted excess files&#10;added two new social media buttons&#10;changed the icon" />
     <MESSAGE value="formatted some maths" />
     <MESSAGE value="changed app name to mathsuk" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed app name to mathsuk" />
+    <MESSAGE value="updating some questions and formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating some questions and formatting" />
   </component>
 </project>
