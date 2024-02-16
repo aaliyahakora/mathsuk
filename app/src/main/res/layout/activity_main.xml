@@ -7,14 +7,13 @@
     android:background="@drawable/gradient_background"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btn_open_formulas"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FCCB90"
+        android:backgroundTint="#b3cde0"
         android:text="Formulas"
         android:textSize="25sp" />
 
@@ -22,7 +21,7 @@
         android:id="@+id/btn_open_questions"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#B6B97C"
+        android:backgroundTint="#6497b1"
         android:text="Exam Questions"
         android:textSize="25sp" />
 
@@ -30,7 +29,7 @@
         android:id="@+id/btn_open_revision"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#77A27A"
+        android:backgroundTint="#005b96"
         android:text="Multiple Choice Questions"
         android:textSize="25sp" />
 
@@ -38,7 +37,7 @@
         android:id="@+id/btn_timer"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#48857A"
+        android:backgroundTint="#6497b1"
         android:text="Timer Tool"
         android:textSize="25sp" />
 
@@ -46,10 +45,10 @@
         android:id="@+id/btn_notes"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#32676F"
+        android:backgroundTint="#b3cde0"
         android:text="My Notes"
         android:textSize="25sp" />
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -60,48 +59,46 @@
         <ImageButton
             android:id="@+id/btn_instagram"
             android:layout_width="0dp"
-            android:layout_weight="0.5"
             android:layout_height="wrap_content"
+            android:layout_weight="0.5"
             android:adjustViewBounds="true"
+            android:background="@drawable/instagram_button"
             android:maxWidth="60dp"
             android:maxHeight="60dp"
             android:scaleType="fitCenter"
-            android:background="@drawable/instagram_button"
-            android:src="@drawable/instagram"/>
+            android:src="@drawable/instagram" />
 
         <ImageButton
             android:id="@+id/btn_tiktok"
             android:layout_width="0dp"
-            android:layout_weight="0.5"
             android:layout_height="wrap_content"
+            android:layout_weight="0.5"
             android:adjustViewBounds="true"
+            android:background="@drawable/tiktok_button"
             android:maxWidth="60dp"
             android:maxHeight="60dp"
             android:scaleType="fitCenter"
-            android:background="@drawable/tiktok_button"
-            android:src="@drawable/tiktok"/>
+            android:src="@drawable/tiktok" />
 
         <ImageButton
             android:id="@+id/btn_facebook"
             android:layout_width="0dp"
-            android:layout_weight="0.5"
             android:layout_height="wrap_content"
+            android:layout_weight="0.5"
             android:adjustViewBounds="true"
+            android:background="@drawable/facebook_button"
             android:maxWidth="60dp"
             android:maxHeight="60dp"
             android:scaleType="fitCenter"
-            android:background="@drawable/facebook_button"
-            android:src="@drawable/facebook"/>
+            android:src="@drawable/facebook" />
 
 
     </LinearLayout>
 
 
-
-
     <WebView
         android:id="@+id/web_view"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

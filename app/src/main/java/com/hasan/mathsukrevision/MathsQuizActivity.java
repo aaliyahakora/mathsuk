@@ -186,6 +186,44 @@ public class MathsQuizActivity extends AppCompatActivity {
 
 
     private void addQuestions() {
+        questionsList.add(new QuestionsTemplate("2+5×7-11", "17", "26", "38","14",  2));
+        questionsList.add(new QuestionsTemplate("Can I use the Cosine Rule on a right angle triangle?", "Ofcourse - it is a triangle", "No", "Not sure","Sometimes",  2));
+        questionsList.add(new QuestionsTemplate("Can I use the Sine Rule on a right angle triange?", "Ofcourse - it is a triangle", "No", "Not sure","Sometimes",  2));
+        questionsList.add(new QuestionsTemplate("What is the probability of getting heads twice when tossing a fair coin 3 times?", "3/8", "1/8", "1","0",  1));
+        questionsList.add(new QuestionsTemplate("(𝑥)⁵ = 1", "0", "1", "5⁵","5",  2));
+        questionsList.add(new QuestionsTemplate("(𝑥)⁵ = 0", "2", "3", "0","5",  3));
+        questionsList.add(new QuestionsTemplate("(𝑥)⁵ = 32", "2", "3", "32⁵","3.2",  1));
+        questionsList.add(new QuestionsTemplate("What is the length of a cube with volume 1000?", "500", "100", "20","10",  4));
+        questionsList.add(new QuestionsTemplate("What is the probability of getting heads twice in a row (on a fair 2-sided coin)?", "1/4", "1/2", "1","Impossible",  1));
+        questionsList.add(new QuestionsTemplate("What is the length of a square with area 625?", "50", "100", "25","312.5",  3));
+        questionsList.add(new QuestionsTemplate("What is the length of a square with area 10,000?", "500", "100", "50","10",  2));
+        questionsList.add(new QuestionsTemplate("What is the length of a square with area 900?", "30", "3", "20","10",  1));
+        questionsList.add(new QuestionsTemplate("What are the chances of rolling a 4 on a fair 6-sided die?", "4/6", "4", "1/6","Random Chance",  3));
+        questionsList.add(new QuestionsTemplate("What is the length of a square with area 100?", "50", "100", "20","10",  4));
+        questionsList.add(new QuestionsTemplate("What shape is NOT a 'prism'?", "Cylinder", "Sphere", "Cuboid","Triangular Prism",  2));
+        questionsList.add(new QuestionsTemplate("What is surface area of a cube with side length 5?", "125", "150", "20","600",  2));
+        questionsList.add(new QuestionsTemplate("Simplify expression 3𝑥 × 4y + 4𝑥 × 3y", "24𝑥y", "7𝑥y", "7𝑥 +7y","12𝑥 + 7y",  1));
+        questionsList.add(new QuestionsTemplate("What is the probability of getting heads on a fair coin toss?", "1", "0.5", "0","random chance",  2));
+        questionsList.add(new QuestionsTemplate("What is the volume of a cube with side length 5?", "216", "25", "125","10",  3));
+        questionsList.add(new QuestionsTemplate("What is the volume of a cube with side length 6?", "216", "25", "125","10",  1));
+        questionsList.add(new QuestionsTemplate("What is surface area of a cube with side length 10?", "2100", "100", "20","600",  4));
+        questionsList.add(new QuestionsTemplate("Simplify expression 12𝑥 -3y + 12𝑥 + 3y", "24𝑥 ", "0", "4𝑥 + y","7𝑥 + 7y",  1));
+        questionsList.add(new QuestionsTemplate("Simplify expression 15𝑥 - 4y + 4𝑥 + 7y", "3𝑥 + 8y", "19𝑥 + 3y", "4𝑥 + y","7𝑥 + 7y",  2));
+        questionsList.add(new QuestionsTemplate("Find 𝑥: 4𝑥 + 5 = 29", " 𝑥 = 1", " 𝑥 = 9", " 𝑥 = 6"," 𝑥 = 10", 3));
+        questionsList.add(new QuestionsTemplate("What is 30𝑥-5=6𝑥+15?(simplify)", "13", "270", "20/24","5/6", 4));
+        questionsList.add(new QuestionsTemplate("What is 3𝑥-5=4𝑥-8?(simplify)", "13", "270", "-3/27","3", 4));
+        questionsList.add(new QuestionsTemplate("What is 30𝑥-5=31𝑥-8?(simplify)", "-3", "9", "3","-1/9", 3));
+        questionsList.add(new QuestionsTemplate("What is 4𝑥-5=3𝑥-8?(simplify)", "3", "270", "-3","-1/9", 3));
+        questionsList.add(new QuestionsTemplate("Simplify the ratio 4:8", "4:9", "1:2", "48:1","3:2", 2));
+        questionsList.add(new QuestionsTemplate("Simplify the ratio 9:15", "3:5", "15:9", "3:6","1:3",  1));
+        questionsList.add(new QuestionsTemplate("What is (3𝑥)² ?", "3𝑥²", "9𝑥²", "9𝑥","30𝑥", 2));
+        questionsList.add(new QuestionsTemplate("What is (4𝑥)³ ?", "64𝑥³", "4𝑥³", "8𝑥²","2𝑥³",  1));
+        questionsList.add(new QuestionsTemplate("What is 30𝑥-5=10?", "1/2", "5/30", "5/6","2", 1));
+        questionsList.add(new QuestionsTemplate("What is 5𝑥-5=10?", "1/2", "3", "1/3","2", 2));
+        questionsList.add(new QuestionsTemplate("What is 10𝑥-5=95?", "10", "1/10", "5/6","2", 1));
+        questionsList.add(new QuestionsTemplate("What is 17𝑥-5=100?", "105/17", "17/105", "5/6","17", 1));
+        questionsList.add(new QuestionsTemplate("What is 30𝑥-40=10?", "50/3", "5/3", "5/6","6/5", 2));
+        questionsList.add(new QuestionsTemplate("What is 30𝑥-5=3𝑥-8?(simplify)", "13", "270", "-3/27","-1/9", 3));
         questionsList.add(new QuestionsTemplate("What is 1/𝑥 + 2/𝑥?", "3/𝑥", "3𝑥", "1/𝑥","3", 1));
         questionsList.add(new QuestionsTemplate("What is 5/𝑥 + 6/𝑥?", "30/𝑥", "7/𝑥", "11/𝑥","11", 3));
         questionsList.add(new QuestionsTemplate("What is 8/𝑥 - 2/𝑥?", "3/𝑥", "3𝑥", "6/𝑥","6", 3));
@@ -247,7 +285,7 @@ public class MathsQuizActivity extends AppCompatActivity {
         questionsList.add(new QuestionsTemplate("What is Pythagoras' theorem?", "a²+b²=c²", "a+b=c", "x²-y²=c²", "1+1=3", 1));
         questionsList.add(new QuestionsTemplate("What is the equation of a straight line?", "y=mx", "y=mx+c", "straight line", "0",2));
         questionsList.add(new QuestionsTemplate("what does CAH stand for?", "sin x =opposite/hypotenuse", "cos x =adjacent/hypotenuse", "sin x", "cos x = hypotenuse/adjacent",2));
-
+        questionsList.add(new QuestionsTemplate("Should you follow mathsuk on IG and TikTok?", "Yes", "Right now, Yes", "Later","No",  2));
 
     }
 }
